@@ -3,6 +3,10 @@ function Scooter(year,color,model){
   this.color = color
   this.model = model
 }
-Scooter with year, color, and model properties
-Driver with name, age, and experience properties
+function (name,age,experience){
+  this.name = name
+  this.age = age
+  this.experience = experience
+}
+
 PickupLocation with address and city properties
